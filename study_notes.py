@@ -31,4 +31,11 @@
 # Os modelos são instanciados e treinados com os dados de treino (x_treino e y_treino)
 # para aprender padrões e prever o score de crédito.
 
+# Step 5 - Use the best trained model to predict credit scores for new customers
+# In this step, we load new customer data, apply the same encoders used in training
+# to convert categorical data into numbers, and then use the trained model
+# (modelo_arvoredecisao) to generate credit score predictions.
+
+
+
 
