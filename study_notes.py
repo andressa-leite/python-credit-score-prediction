@@ -25,3 +25,10 @@
 # O train_test_split divide os dados em conjuntos de treino e teste,
 # permitindo treinar o modelo e avaliar seu desempenho com dados não vistos.
 
+# Step 4 Notes:
+# Nesta etapa, criamos, treinamos e comparamos diferentes modelos de Machine Learning.
+# Foram utilizados dois algoritmos: K-Nearest Neighbors e Random Forest.
+# Os modelos são instanciados e treinados com os dados de treino (x_treino e y_treino)
+# para aprender padrões e prever o score de crédito.
+
+
