@@ -16,4 +16,12 @@
 # tabela['Profissão'] = codificador_profissao.fit_transform(tabela['Profissão'])
 # Funciona como uma tabela de banco de dados: cada profissão recebe um ID numérico,
 # substituindo o texto pelo número correspondente para facilitar o processamento
-#36
+
+# Step 3 Notes:
+# Nesta etapa, construímos e preparamos o modelo de Machine Learning.
+# A variável Y representa o alvo (score_credito), ou seja, o valor que queremos prever.
+# A variável X contém as features (dados de entrada) usadas para fazer essa previsão,
+# removendo a coluna alvo e identificadores que não ajudam no aprendizado.
+# O train_test_split divide os dados em conjuntos de treino e teste,
+# permitindo treinar o modelo e avaliar seu desempenho com dados não vistos.
+
